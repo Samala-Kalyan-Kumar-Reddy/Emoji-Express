@@ -1,0 +1,21 @@
+.message-container {
+    display: inline-block;
+    position: relative;
+}
+
+.message {
+    padding: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    font: bold;
+}
+
+.emoji-container {
+    display: none;
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
